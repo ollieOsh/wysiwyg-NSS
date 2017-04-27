@@ -1,0 +1,42 @@
+.person {
+	margin-top: 30px;
+	padding: 30px 30px 15px 30px;
+}
+
+.person:nth-child(even) {
+	background-color: lightyellow;
+}
+
+.person:nth-child(odd) {
+	background-color: lightblue;
+}
+
+.portrait {
+	width: 100%;
+}
+
+body{
+	box-sizing: border-box;
+}
+
+p {
+	float: left;
+	width: 49%;
+}
+
+img {
+	display: block;
+	height: 350px;
+	width: 350px;
+	margin: 0 auto;
+	object-fit: contain;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.border {
+	border: dotted;
+}
